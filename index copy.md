@@ -1,9 +1,5 @@
 ---
-layout:     default
-title:      "test"
-subtitle:   "one"
-date:       2016-03-02 12:00:00
-author:     "jc"
+layout: default
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
