@@ -6,7 +6,7 @@ description: "aaaaaaaaaaaaaaaaa"
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{site.url}}/{{site.root_name}}/{{ post.url }}">{{ post.title }}</a>
+      <a href="{{site.url}}/{{site.root_name}}{{ post.url }}">{{ post.title }}{{site.baseurl}}</a>
     </li>
   {% endfor %}
 </ul>
