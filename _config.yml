@@ -4,6 +4,7 @@ show_downloads: false
 show_github: false
 my_name: Jim Cheng
 post_images: post_images
+title_images: title_images
 
 paginate: 2
 paginate_path: "/blog/page:num/"

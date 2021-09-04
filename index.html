@@ -5,7 +5,7 @@ description: "aaaaaaaaaaaaaaaaa"
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-	<img src="title_images/{{post.image}}.jpg">
+	<img src="{{site.url}}/{{site.title_images}}/{{post.image}}.jpg">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
