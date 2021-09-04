@@ -9,9 +9,9 @@ description: "aaaaaaaaaaaaaaaaa"
         <h2 class="post-title">
             {{ post.title }}
         </h2>
-        <p class="post-meta">
+        <h3 class="post-meta">
 			{{ post.date | date: "%B %-d, %Y" }}
-    	</p>
+    	</h3>
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}
         </div>
