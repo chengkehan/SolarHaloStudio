@@ -27,17 +27,17 @@ description: "aaaaaaaaaaaaaaaaa"
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
-      Previous
+      <strong>Previous</strong>
     </a>
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
   <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    <strong>Page: {{ paginator.page }} of {{ paginator.total_pages }}</strong>
   </span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
-    <span class="next ">Next</span>
+    <span class="next "><strong>Next</strong></span>
   {% endif %}
 </div>
