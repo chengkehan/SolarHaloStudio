@@ -13,6 +13,9 @@ description: "aaaaaaaaaaaaaaaaa"
             {{ post.content | strip_html | truncate:200 }}
         </div>
     </a>
+    <p class="post-meta">
+		{{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
 <hr>
 {% endfor %}
