@@ -3,10 +3,16 @@ layout: page
 description: "aaaaaaaaaaaaaaaaa"
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+</div>
+<hr>
+{% endfor %}
