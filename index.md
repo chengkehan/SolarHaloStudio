@@ -12,5 +12,6 @@ description: "aaaaaaaaaaaaaaaaa"
 <hr>
 {% endfor %}
 <h1>bb11</h1>
+<h1>{{site.title}}</h1>
 <h1>{{paginator.total_posts}}</h1>
 <h1>cc</h1>
