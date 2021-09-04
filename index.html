@@ -5,7 +5,7 @@ description: "aaaaaaaaaaaaaaaaa"
 
 {% for post in site.posts %}
 <div class="post-preview">
-	<img src="title_images/aaaa.jpg">
+	<img src="title_images/{{post.image}}.jpg">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
