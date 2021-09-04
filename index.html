@@ -3,7 +3,7 @@ layout: page
 description: "aaaaaaaaaaaaaaaaa"
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div class="post-preview">
 	<img src="title_images/{{post.image}}.jpg">
     <a href="{{ post.url | prepend: site.baseurl }}">

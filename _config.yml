@@ -5,6 +5,5 @@ show_github: false
 my_name: Jim Cheng
 post_images: post_images
 
-gems: [jekyll-paginate]
 paginate: 2
 paginate_path: "/blog/page:num/"
