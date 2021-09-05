@@ -4,8 +4,8 @@ function findSize(el, size) {
         ? getComputedStyle(el,null).getPropertyValue(size)
         : el['client'+size.substr(0,1).toUpperCase() + size.substr(1)] + "px";
 }
-function resizeVideoFrame(){
-	var iframe = document.getElementById("videoFrame");
+function resizeVideoFrame(frameName){
+	var iframe = document.getElementById(frameName);
 	if (iframe) {
 		try{
 			var widthStr = findSize(iframe, "width")
@@ -14,4 +14,18 @@ function resizeVideoFrame(){
 		}catch (ex){}
 	}
 }
-window.setInterval("resizeVideoFrame()", 500);
+function resizeVideoFrames()
+{
+	resizeVideoFrame("videoFrame");
+	resizeVideoFrame("videoFrame0");
+	resizeVideoFrame("videoFrame1");
+	resizeVideoFrame("videoFrame2");
+	resizeVideoFrame("videoFrame3");
+	resizeVideoFrame("videoFrame4");
+	resizeVideoFrame("videoFrame5");
+	resizeVideoFrame("videoFrame6");
+	resizeVideoFrame("videoFrame7");
+	resizeVideoFrame("videoFrame8");
+	resizeVideoFrame("videoFrame9");
+}
+window.setInterval("resizeVideoFrames()", 500);
