@@ -39,7 +39,7 @@
         </ul> -->
         <ul>
           {% for tag in site.tags %}
-            <li><a href="{{ site.url }}">Goto<br><strong>{{ tag[0] }}</strong></a></li>
+            <li><a href="{{site.url}}/{{tag[0]}}.html">*<br><strong>{{ tag[0] }}</strong></a></li>
           {% endfor %}
         </ul>
       </header>
