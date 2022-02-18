@@ -5,6 +5,7 @@ show_github: false
 my_name: Jim Cheng
 post_images: post_images
 title_images: title_images
+excerpt_separator: <!--more-->
 
 paginate: 5
 paginate_path: "/blog/page:num/"
