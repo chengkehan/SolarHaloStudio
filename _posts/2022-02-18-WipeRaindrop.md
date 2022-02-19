@@ -13,7 +13,7 @@ The code of ShaderToy is hard to understand even though I tried so hard. At this
 
 Finally, I get my own raindrop. There's still a lot of things for improvement, I will do it later. And also I will optimize the performance.
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/oHwONrGDWfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oHwONrGDWfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h3>{{ page.title }}</h3>
 <h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
