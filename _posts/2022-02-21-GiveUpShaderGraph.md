@@ -9,7 +9,7 @@ I used to write shader code directly in text editor. It's a powerful way because
 
 ShaderGraph is a good tool that I can make shader without any code. There are many utilized nodes, with these nodes I can get a good effect more quickly and more easier.  Another good thing is I don't need to care about many details but more attentions on game develop. And Even if I update the version of engine and rendering pipeline, there are not many changes. 
 
-[]({{site.url}}/{{site.post_images}}/GiveUpShaderGraphA.jpg)
+![]({{site.url}}/{{site.post_images}}/GiveUpShaderGraphA.jpg)
 
 It seems perfect until I realize ShaderGraph is still mutilated. Some important features are not implemented, and there are not any workarounds. This affected my development.
 
