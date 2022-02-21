@@ -11,7 +11,12 @@ And on a fogged glass, lots of tiny water droplets are evenly distributed on the
 
 If you have watched my previous video, I didn't implemnt this. So I will add this feature to my raindrop effect.  Tails of raindrop will distort images and leave tracks.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r-bQHM8QiqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>
+    <div style="position:relative;padding-top:56.25%;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/r-bQHM8QiqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    </div>
+</div>
+<br>
 
 <h3>{{ page.title }}</h3>
 <h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
