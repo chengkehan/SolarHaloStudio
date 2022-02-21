@@ -5,7 +5,7 @@ image:      GiveUpShaderGraph
 tag:        DEV
 ---
 
-I used to write shader code directly in text editor. It's a powerful way because of everything is under the control. Lighting, animation, FX effect etc., I can access all data of these things and modify them.
+I used to write shader code directly in text editor. It's a powerful way because of everything is under the control. Lighting, animation, FX effect etc., I can access all data of these things and modify them.<!--more-->
 
 ShaderGraph is a good tool that I can make shader without any code. There are many utilized nodes, with these nodes I can get a good effect more quickly and more easier.  Another good thing is I don't need to care about many details but more attentions on game develop. And Even if I update the version of engine and rendering pipeline, there are not many changes. 
 
