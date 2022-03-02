@@ -8,7 +8,7 @@ tag:        WIP
 ![]({{site.url}}/{{site.post_images}}/CharacterGangBossA.jpg)
 
 Profile: 
-- He controls all gambling and drug dealings in the area of influence. He took the boss' seat almost overnight, and no one mentioned the previous boss again. It can be seen that his methods are tough, and everyone is convinced. But he also has his weaknesses.
+- He controls all gambling and drug dealings in the area of influence. He took the boss' seat almost overnight, and no one mentioned the previous boss again. It can be seen that his methods are tough, and everyone is convinced. But he also has his weaknesses.<!--more-->
 
 Copyright: 
 - https://sketchfab.com/thunderpwn
