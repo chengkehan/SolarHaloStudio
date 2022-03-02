@@ -5,7 +5,8 @@ description: "Solar Halo Studio Indie Game Developer"
 
 <style>
 table, tr, td { border:none }
-td { min-width:150px }
+td { width:auto }
+td.min { width:20%; white-space:nowrap }
 </style>
 
 <li>
@@ -16,7 +17,7 @@ td { min-width:150px }
 <table cellspacing="4" cellpadding="2">
 	{% for post in site.posts %}
 	<tr>
-		<td>
+		<td class="min">
 			<a href="{{ post.url }}">{{ post.date | date: "%B %-d, %Y" }}</a>
 		</td>
 		<td>
