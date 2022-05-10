@@ -38,9 +38,10 @@ CBUFFER_END
 
 This will cause the Shader to be incompatible with SRPBatching and we will get the following warning message.
 
-![SRP Batcher not compatible]({{site.url}}/{{site.post_images}}/TemplatedShaderB.jpg)
-
-![UnityPerMaterial CBuffer inconsistent size inside a SubShader]({{site.url}}/{{site.post_images}}/TemplatedShaderA.jpg)
+```
+SRP Batcher not compatible.
+UnityPerMaterial CBuffer inconsistent size inside a SubShader
+```
 
 The reason for this is that SRPBatching must ensure that the length of the ConstantBuffer for each Shader is constant, so that a ConstantBuffer can be shared between different Variant.
 
