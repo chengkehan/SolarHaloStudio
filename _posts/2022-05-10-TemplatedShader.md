@@ -5,7 +5,7 @@ image:      TemplatedShader
 tag:        DEV
 ---
 
-When there are many Properties in a Shader, how to reuse these Properties, we can't use “Include” because Unity doesn't provide this feature. There are many other cases like this, except for hlsl code, many other things cannot be reused by multiple shaders at all. So we have to copy and paste it over and over again in each shader, and always remember where it is used when maintaining it. For example, if the following code is used in other shaders, we have to copy and paste it manually.
+When there are many Properties in a Shader, how to reuse these Properties, we can't use “Include” because Unity doesn't provide this feature. There are many other cases like this, except for hlsl code, many other things cannot be reused by multiple shaders at all. So we have to copy and paste it over and over again in each shader, and always remember where it is used when maintaining it. For example, if the following code is used in other shaders, we have to copy and paste it manually.<!--more-->
 
 ```
 Properties
