@@ -7,7 +7,7 @@ tag:        DEV
 
 How to send data to per renderer to make each renderer get different color(or other properties)? It's not obvious in Universal Rendering Pipeline. 
 
-In Standard Rendering Pipeline, we can set data to MaterialPropertyBlock and send it Renderers, then read all these data in material. But it will cause a problem if we to do so. I will break SRPBatching. We will get a message in FrameDebug.
+In Standard Rendering Pipeline, we can set data to MaterialPropertyBlock and send it Renderers, then read all these data in material. But it will cause a problem if we to do so. I will break SRPBatching. We will get a message in FrameDebug.<!--more-->
 
 ```
 SRP: Node is not compatible with SRP Batcher
