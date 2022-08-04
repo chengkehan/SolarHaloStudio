@@ -5,7 +5,7 @@ image:      MatchTargetAndOnAnimatorMove
 tag:        DEV
 ---
 
-We can control root motion in a callback function named [OnAnimatorMove](https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnAnimatorMove.html), and adjust Humaniod position and rotation with [MatchTarget](https://docs.unity3d.com/ScriptReference/Animator.MatchTarget.html). If we use both the two functions, there maybe some problems.<!--more-->
+We can control root motion in a callback function named OnAnimatorMove, and adjust Humaniod position and rotation with MatchTarget. If we use both the two functions, there maybe some problems.<!--more-->
 
 I cann't get any effect with MatchTarget when OnAnimatorMove is enabled. But when I disable OnAnimatorMove, everything seems well. So maybe there is a conflict between them.
 
