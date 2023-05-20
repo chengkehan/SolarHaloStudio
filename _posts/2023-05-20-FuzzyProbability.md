@@ -31,22 +31,22 @@ Therefore, we use Bayesian analysis to build the framework and use fuzzy logic t
 
 Since each path is calculated in the same way, we look at only one path.
 
-We write the probability that the first path is clear as P(A1) and the probability that the path is clear and can reach the end point on time as P(B|A1), then the probability that this path can reach the end point on time is P(A1)P(B|A1).
+We write the probability that the first path is clear as P(A1) and the probability that the path is clear and can reach the end point on time as P(B/A1), then the probability that this path can reach the end point on time is P(A1)P(B/A1).
 
 P(A1) is calculated using fuzzy logic, where we represent each condition as a fuzzy logic input and finally inverse fuzzy output of all inputs to obtain P(A1). A great advantage here is that we can use fuzzy logic to limit the range of values between 0 and 1, which is very convenient for subsequent analysis and calculation.
 
-Similarly, the probability that the caravan takes the second path and the third path reaches the end on time is P(A2)P(B|A2) and P(A3)P(B|A3).
+Similarly, the probability that the caravan takes the second path and the third path reaches the end on time is P(A2)P(B/A2) and P(A3)P(B/A3).
 
-The total probability of the caravan arriving on time at the end from the starting point is P(A1)P(B|A1) + P(A2)P(B|A2) + P(A3)P(B|A3). We can use fuzzy logic for each probability and decide which path is more feasible. Similarly, we can use fuzzy logic for the total probability, and when the fuzzy logic output is almost impossible to reach, then we as the commander have to carefully consider this platooning order.
+The total probability of the caravan arriving on time at the end from the starting point is P(A1)P(B/A1) + P(A2)P(B/A2) + P(A3)P(B/A3). We can use fuzzy logic for each probability and decide which path is more feasible. Similarly, we can use fuzzy logic for the total probability, and when the fuzzy logic output is almost impossible to reach, then we as the commander have to carefully consider this platooning order.
 
 The above analysis is from the point of view of the player giving the order for the caravan, so if we look at it from the point of view of the enemy force. When the enemy sees that the caravan has successfully completed this important resupply mission, resulting in a disadvantage to itself, the enemy needs to consider which road the caravan is most likely to come from, and in the subsequent AI processing, it will set up garrisons on this priority road to intercept the resupply.
 
 This is where the Bayesian formula comes into play.
 
-From the enemy's point of view, the probability of the caravan choosing the first path is, P(A1|B) = P(A1)P(B|A1) / (P(A1)P(B|A1) + P(A2)P(B|A2) + P(A3)P(B|A3))
+From the enemy's point of view, the probability of the caravan choosing the first path is, P(A1/B) = P(A1)P(B/A1) / (P(A1)P(B/A1) + P(A2)P(B/A2) + P(A3)P(B/A3))
 
 Similarly, the probabilities of the caravan choosing the second and third paths can be introduced. These three probability values are fed into the fuzzy logic, and then the output of the fuzzy logic is used to determine the next AI's behavior.
 
 <h3>{{ page.title }}</h3>
-<h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
+<h5>{{ page.date / date: "%B %-d, %Y" }}</h5>
 
