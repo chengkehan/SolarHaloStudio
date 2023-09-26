@@ -17,6 +17,9 @@ So Transform is just a parent-child hierarchical inheritance of affine transform
 
 In practice, this operation is very easy to make mistakes, so we can encapsulate the Parent, Child and LinkedEntityGroup when establishing the parent-child hierarchy. When SetParent is set, the LinkedEntityGroup is automatically used to associate or disconnect the parent-child relationship, so as to achieve the purpose of normal human cognition.
 
+[https://docs.unity3d.com/Packages/com.unity.entities@1.1/manual/transforms-concepts.html]()
+[https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.LinkedEntityGroup.html]()
+
 <h3>{{ page.title }}</h3>
 <h5>{{ page.date / date: "%B %-d, %Y" }}</h5>
 
