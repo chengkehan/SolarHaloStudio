@@ -21,5 +21,5 @@ In practice, this operation is very easy to make mistakes, so we can encapsulate
 [https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.LinkedEntityGroup.html]() 
 
 <h3>{{ page.title }}</h3>
-<h5>{{ page.date / date: "%B %-d, %Y" }}</h5>
+<h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
 

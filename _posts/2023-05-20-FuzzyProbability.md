@@ -48,5 +48,5 @@ From the enemy's point of view, the probability of the caravan choosing the firs
 Similarly, the probabilities of the caravan choosing the second and third paths can be introduced. These three probability values are fed into the fuzzy logic, and then the output of the fuzzy logic is used to determine the next AI's behavior.
 
 <h3>{{ page.title }}</h3>
-<h5>{{ page.date / date: "%B %-d, %Y" }}</h5>
+<h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
 
