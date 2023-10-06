@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Entity Hierarchy"
-image:      FuzzyLogicSystemPreview
+image:      DOTS
 tag:        DEV
 ---
 
