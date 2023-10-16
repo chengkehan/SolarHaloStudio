@@ -49,7 +49,7 @@ We'll use this as a base to design a few NPCs with their own personalities, whos
 
 Coming Soon ...
 
-[https://github.com/chengkehan/FuzzyLogic]()
+[https://github.com/chengkehan/FuzzyLogic](https://github.com/chengkehan/FuzzyLogic)
 
 <h3>{{ page.title }}</h3>
 <h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
