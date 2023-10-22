@@ -2,7 +2,7 @@
 layout:     post
 title:      "[CHARACTER] Police"
 image:      CharacterShow
-tag:        WIP
+tag:        DEV
 ---
 
 Profile: 

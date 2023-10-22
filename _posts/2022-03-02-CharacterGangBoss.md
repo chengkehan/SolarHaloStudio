@@ -2,7 +2,7 @@
 layout:     post
 title:      "[CHARACTER] Gang Boss"
 image:      CharacterShow
-tag:        WIP
+tag:        DEV
 ---
 
 Profile: 

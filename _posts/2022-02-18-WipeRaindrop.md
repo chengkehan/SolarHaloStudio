@@ -2,7 +2,7 @@
 layout:     post
 title:      "Wipe Raindrop"
 image:      WipeRaindrop
-tag:        WIP
+tag:        DEV
 ---
 
 I'd like to add raindrop effect on windows to my game. In a rainy scene, player look through the window, raindrop flow down. This will get some interesting experiences.<!--more-->

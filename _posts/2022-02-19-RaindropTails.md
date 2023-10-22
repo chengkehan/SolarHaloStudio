@@ -2,7 +2,7 @@
 layout:     post
 title:      "Tails of Raindrop"
 image:      RaindropTails
-tag:        WIP
+tag:        DEV
 ---
 
 When water drop down through glass, this will cause a disturbance of our sight, because of surface is not flat any more. Of course the change in density is also need to consider, but we are not doing academic research, so ignore this point.<!--more-->

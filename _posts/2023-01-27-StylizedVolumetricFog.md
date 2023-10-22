@@ -2,7 +2,7 @@
 layout:     post
 title:      "Stylized Volumetric Fog"
 image:      StylizedVolumetricFog
-tag:        WIP
+tag:        DEV
 ---
 
 Stylized Lighting Volumetric Fog Simulating. Optimized for mobile game. Implementation is different from general ways. The most important thing is almost zero costing even on mobile device. Maybe a little strange at glance angle, but it's enough for my game.<!--more-->

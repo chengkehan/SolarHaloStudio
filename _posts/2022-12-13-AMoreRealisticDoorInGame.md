@@ -2,7 +2,7 @@
 layout:     post
 title:      "A More Realistic Door in Game"
 image:      AMoreRealisticDoorInGame
-tag:        WIP
+tag:        DEV
 ---
 
 I don't like a double side door that role can open from inside or outside.<!--more-->
